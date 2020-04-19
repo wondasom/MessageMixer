@@ -1,4 +1,69 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  line-height: 1.6;
+  box-shadow: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul span {
+  margin-right: 5px;
+}
+
+.instruction {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.instruction span {
+  background-color: yellow;
+}
+.container {
+  border: 1px solid transparent;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.inputMessage {
+  width: 50%;
+  margin: 0 auto;
+  height: 200px;
+  border: 3px solid;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .instruction,
+  .container,
+  .inputMessage {
+    width: 90%;
+  }
+}
+
+.section {
+  border: 1px solid;
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  font-size: 20px;
+}
+
+.section span {
+  margin-right: 5px;
+}
+
+.section p {
+  font-size: 16px;
+}
+
+.section input {
+  border: 2px solid;
+  height: 20px;
 }
